@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import papayaTreeBW from '../assets/artwork/papaya_tree_black&white.png';
 import jupiter from '../assets/artwork/jupitar_final.png';
 import whiteFlower from '../assets/artwork/white_flower_edit_1.png';
+import clump from '../assets/artwork/Clump.png';
 import purple from '../assets/artwork/Purple.png';
 import passion from '../assets/artwork/passion.png';
 import './BackgroundTransition.css';
@@ -9,10 +10,20 @@ import './BackgroundTransition.css';
 const BackgroundTransition = () => {
   const [currentBackground, setCurrentBackground] = useState(papayaTreeBW);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const [isScrolling, setIsScrolling] = useState(false);
+  let scrollTimeout: number;
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'experience', 'artwork', 'projects'];
+      // Set scrolling state
+      setIsScrolling(true);
+      clearTimeout(scrollTimeout);
+      
+      scrollTimeout = window.setTimeout(() => {
+        setIsScrolling(false);
+      }, 150);
+
+      const sections = ['home', 'experience', 'education', 'artwork', 'projects'];
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
       // Find which section is currently in view
@@ -32,7 +43,10 @@ const BackgroundTransition = () => {
               setCurrentBackground(papayaTreeBW);
               break;
             case 'experience':
-              setCurrentBackground(jupiter);
+              setCurrentBackground(whiteFlower);
+              break;
+            case 'education':
+              setCurrentBackground(clump);
               break;
             case 'artwork':
               setCurrentBackground(passion);
@@ -42,16 +56,19 @@ const BackgroundTransition = () => {
               break;
           }
           setIsTransitioning(false);
-        }, 300); // Match this with CSS transition duration
+        }, 300);
       }
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      clearTimeout(scrollTimeout);
+    };
   }, []);
 
   return (
-    <div className={`background-transition ${isTransitioning ? 'transitioning' : ''}`}>
+    <div className={`background-transition ${isTransitioning || isScrolling ? 'transitioning' : ''}`}>
       <div 
         className="background-image"
         style={{ backgroundImage: `url(${currentBackground})` }}
