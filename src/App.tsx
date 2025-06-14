@@ -1,15 +1,18 @@
+import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Artwork from './pages/Artwork';
 import Projects from './pages/Projects';
+import BackgroundTransition from './components/BackgroundTransition';
 import './App.css';
 
 function App() {
   return (
     <div className="app">
+      <BackgroundTransition />
       <Navbar />
-      <main className="main-content">
+      <main>
         <section id="home">
           <Home />
         </section>

@@ -4,12 +4,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  z-index: 2;
 }
 
 .artwork-page h1 {
   text-align: center;
   margin-bottom: 3rem;
   color: #333;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .gallery {
@@ -24,7 +30,7 @@
 .gallery-item {
   cursor: pointer;
   transition: transform 0.3s ease;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

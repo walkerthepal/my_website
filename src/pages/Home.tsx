@@ -1,4 +1,4 @@
-import passion from '../assets/artwork/passion.png';
+import jupiter from '../assets/artwork/jupitar_final.png';
 import './Home.css';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
           <p>M.S. Computer Science Student at Georgia Institute of Technology</p>
         </div>
         <div className="hero-image">
-          <img src={passion} alt="Artwork by Walker Phillips" />
+          <img src={jupiter} alt="Artwork by Walker Phillips" />
         </div>
       </section>
       
