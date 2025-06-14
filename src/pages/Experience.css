@@ -1,7 +1,5 @@
 .experience-page {
   width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,12 +18,14 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.experience-section, .education-section {
+.experience-section {
   margin-bottom: 4rem;
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .experience-section h2, .education-section h2 {
@@ -69,6 +69,7 @@
 .experience-item ul {
   margin: 0;
   padding-left: 1.5rem;
+  text-align: left;
 }
 
 .experience-item li {

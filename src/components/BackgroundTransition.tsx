@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import papayaTreeBW from '../assets/artwork/papaya_tree_black&white.png';
-import jupiter from '../assets/artwork/jupitar_final.png';
 import whiteFlower from '../assets/artwork/white_flower_edit_1.png';
-import clump from '../assets/artwork/Clump.png';
+import clump from '../assets/artwork/papaya_tree.png';
 import purple from '../assets/artwork/Purple.png';
 import passion from '../assets/artwork/passion.png';
+import bliss from '../assets/artwork/bliss_final_4.png';
 import './BackgroundTransition.css';
 
 const BackgroundTransition = () => {
@@ -23,8 +23,7 @@ const BackgroundTransition = () => {
         setIsScrolling(false);
       }, 150);
 
-      const sections = ['home', 'experience', 'education', 'artwork', 'projects'];
-      const scrollPosition = window.scrollY + window.innerHeight / 2;
+      const sections = ['home', 'experience', 'education', 'artwork', 'projects', 'about'];
 
       // Find which section is currently in view
       const currentSection = sections.find(section => {
@@ -53,6 +52,9 @@ const BackgroundTransition = () => {
               break;
             case 'projects':
               setCurrentBackground(purple);
+              break;
+            case 'about':
+              setCurrentBackground(bliss);
               break;
           }
           setIsTransitioning(false);

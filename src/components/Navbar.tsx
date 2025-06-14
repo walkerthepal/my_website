@@ -25,14 +25,22 @@ const Navbar = () => {
           e.preventDefault();
           scrollToSection('experience');
         }}>Experience</a>
-        <a href="#artwork" onClick={(e) => {
+        <a href="#education" onClick={(e) => {
           e.preventDefault();
-          scrollToSection('artwork');
-        }}>Artwork</a>
+          scrollToSection('education');
+        }}>Education</a>
         <a href="#projects" onClick={(e) => {
           e.preventDefault();
           scrollToSection('projects');
         }}>Projects</a>
+        <a href="#about" onClick={(e) => {
+          e.preventDefault();
+          scrollToSection('about');
+        }}>About</a>
+        <a href="#artwork" onClick={(e) => {
+          e.preventDefault();
+          scrollToSection('artwork');
+        }}>Artwork</a>
       </div>
     </nav>
   );

@@ -24,14 +24,14 @@ function App() {
         <section id="education">
           <Education />
         </section>
-        <section id="artwork">
-          <Artwork />
-        </section>
         <section id="projects">
           <Projects />
         </section>
         <section id="about">
           <About />
+        </section>
+        <section id="artwork">
+          <Artwork />
         </section>
       </main>
     </div>
