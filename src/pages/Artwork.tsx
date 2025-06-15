@@ -27,7 +27,7 @@ const Artwork = () => {
 
   return (
     <div className="artwork-page">
-      <h1>Artwork Gallery</h1>
+      <h1>Artwork</h1>
       <div className="gallery">
         {artwork.map((piece, index) => (
           <div 

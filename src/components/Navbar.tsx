@@ -1,49 +1,90 @@
+import { Link } from 'react-scroll';
 import './Navbar.css';
 
 const Navbar = () => {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <a href="#home" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('home');
-        }}>Walker Phillips</a>
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          className="navbar-brand-link"
+        >
+          Walker Phillips
+        </Link>
       </div>
       <div className="navbar-links">
-        <a href="#home" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('home');
-        }}>Home</a>
-        <a href="#experience" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('experience');
-        }}>Experience</a>
-        <a href="#education" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('education');
-        }}>Education</a>
-        <a href="#projects" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('projects');
-        }}>Projects</a>
-        <a href="#about" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('about');
-        }}>About</a>
-        <a href="#artwork" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('artwork');
-        }}>Artwork</a>
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          spy={true}
+          activeClass="active"
+          className="nav-link"
+        >
+          Home
+        </Link>
+        <Link
+          to="experience"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          spy={true}
+          activeClass="active"
+          className="nav-link"
+        >
+          Experience
+        </Link>
+        <Link
+          to="education"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          spy={true}
+          activeClass="active"
+          className="nav-link"
+        >
+          Education
+        </Link>
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          spy={true}
+          activeClass="active"
+          className="nav-link"
+        >
+          Projects
+        </Link>
+        <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          spy={true}
+          activeClass="active"
+          className="nav-link"
+        >
+          About
+        </Link>
+        <Link
+          to="artwork"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          spy={true}
+          activeClass="active"
+          className="nav-link"
+        >
+          Artwork
+        </Link>
       </div>
     </nav>
   );
 };
 
-export default Navbar; 
+export default Navbar;
