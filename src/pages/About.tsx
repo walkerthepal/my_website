@@ -20,7 +20,7 @@ const About = () => {
           I began working at Publix Super Market in 2022 as an Associate Software Engineer. By the end of 2023 was promoted to Software Engineer. I worked on large scale windows servers maintaining MySQL database clusters and associated infrastructure. This required developing scripting skills for PowerShell, C# MCP Protocol, Azure Policy and T-SQL.
         </p>
         <p>
-          In late 2023, I decided to leave Publix to go back to school for my masters degreein computer science with a specialization in computing systems from Georgia Institute of Technology. I am currently looking for opportunities that align with this path.
+          In late 2023, I decided to leave Publix to go back to school for my masters degree in computer science with a specialization in computing systems from Georgia Institute of Technology. I am currently looking for opportunities that align with this path.
 
           I have since worked on a handful of project to improve my skills across a wide range of technologies. For more information, see the projects section.
         </p>
