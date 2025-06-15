@@ -3,6 +3,11 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
+      title: 'This Website',
+      year: '2025',
+      description: 'React website built with Vite and Tailwind CSS. Utilizing React Router for navigation and React Hooks for state management. Built with Cursor. Hosted via my github.'
+    },
+    {
       title: 'Wordwell',
       year: '2025',
       description: 'Android App including word searches, crosswords, and wordle clone. Written in Kotlin and using room (SQlite) DB for the word dictionary.'
@@ -18,9 +23,14 @@ const Projects = () => {
       description: 'Guitar tuner written out of a frustration of good options in app stores. Backend in Golang for pitch detection signal processing with C bindings, and frontend in REACT.'
     },
     {
+      title: 'Artwork',
+      year: '2022 - 2025',
+      description: 'Artwork created using the pixel sort python project and GIMP (GNU Image Manipulation Program).'
+    },
+    {
       title: 'River Management Simulator',
       year: '2019',
-      description: 'Excel / VBA simulation at FSU, creating a Chattahoochee river basin management schema to satisfy multiuse needs of river basin.'
+      description: 'Excel / VBA simulator at FSU, creating a Chattahoochee river basin management schema to satisfy multiuse needs of river basin.'
     }
   ];
 
