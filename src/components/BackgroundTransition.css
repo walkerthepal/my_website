@@ -1,0 +1,32 @@
+.background-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  background-color: black;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.5;
+}
+
+.background-transition.transitioning .background-image {
+  opacity: 0;
+}
+
+/* Remove the semi-transparent overlay since we're using pure black background */
+.background-transition::after {
+  display: none;
+} 
