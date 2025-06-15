@@ -52,3 +52,7 @@ export default tseslint.config({
   },
 })
 ```
+
+## ToDo:
+- Add blurb on on how the art was created.
+- Add this website to projects

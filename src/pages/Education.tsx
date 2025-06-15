@@ -1,4 +1,3 @@
-import React from 'react';
 import './Education.css';
 
 const Education = () => {
@@ -16,7 +15,7 @@ const Education = () => {
           </div>
           <ul>
             <li>Specializing in Computing Systems</li>
-            <li>Coursework in Graduate level algorithms, software security, Agile vs waterfall design</li>
+            <li>Coursework in Graduate level algorithms, software security, software architecture, agile vs waterfall design, and distributed systems</li>
           </ul>
         </div>
 
@@ -29,7 +28,7 @@ const Education = () => {
           <ul>
             <li>Completed coursework in programming probability, C++, object-oriented programming, and Unix</li>
             <li>Developed strong analytical and problem-solving skills</li>
-            <li>Main focus on sustainability projects while managing multi stakeholder interests</li>
+            <li>Main focus on sustainability projects while managing stakeholder interests</li>
           </ul>
         </div>
 
@@ -40,7 +39,7 @@ const Education = () => {
             <span className="year"> 2019 - 2020</span>
           </div>
           <ul>
-            <li>Studied Java and Python programming</li>
+            <li>Courses in Java and Python programming</li>
             <li>Enhanced programming skills and knowledge</li>
           </ul>
         </div>
