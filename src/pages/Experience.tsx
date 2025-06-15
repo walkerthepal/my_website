@@ -9,33 +9,21 @@ const Experience = () => {
           <div className="experience-header">
             <h2>Software Engineer</h2>
             <span className="company">Publix Super Markets</span>
-            <span className="year">2023</span>
+            <span className="year">2022 - 2023</span>
           </div>
           <ul>
             <li>Developed and maintained PowerShell scripts for automation and system management</li>
             <li>Implemented C# MCP Protocol solutions for system integration</li>
-            <li>Extensive work with T-SQL for database operations and optimization</li>
-          </ul>
-        </div>
-
-        <div className="experience-item">
-          <div className="experience-header">
-            <h2>Associate Software Engineer</h2>
-            <span className="company">Publix Super Markets</span>
-            <span className="year">2022</span>
-          </div>
-          <ul>
             <li>Maintained MySQL database clusters in a large-scale corporate Windows server environment</li>
             <li>Wrote Ad Hoc SQL queries for data analysis and reporting</li>
             <li>Collaborated with cross-functional teams on system improvements</li>
           </ul>
         </div>
-
         <div className="experience-item">
           <div className="experience-header">
             <h2>Product Manager</h2>
             <span className="company">ModernCanna</span>
-            <span className="year">2020</span>
+            <span className="year">2020 - 2022</span>
           </div>
           <ul>
             <li>Developed 'Report Buddy' desktop application to streamline reporting tasks</li>
