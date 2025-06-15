@@ -52,3 +52,7 @@ export default tseslint.config({
   },
 })
 ```
+
+To depoly site changs to gh-pages branch:
+
+```npm run deploy```
