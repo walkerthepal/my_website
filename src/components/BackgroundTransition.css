@@ -19,7 +19,7 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: opacity 0.3s ease-in-out;
-  opacity: 0.15; /* Make the artwork more subtle */
+  opacity: 0.5;
 }
 
 .background-transition.transitioning .background-image {

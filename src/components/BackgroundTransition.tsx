@@ -21,7 +21,7 @@ const BackgroundTransition = () => {
       
       scrollTimeout = window.setTimeout(() => {
         setIsScrolling(false);
-      }, 150);
+      }, 350);
 
       const sections = ['home', 'experience', 'education', 'artwork', 'projects', 'about'];
 
