@@ -21,7 +21,7 @@ const Experience = () => {
         </div>
         <div className="experience-item">
           <div className="experience-header">
-            <h2>Product Manager</h2>
+            <h2>Software Engineer</h2>
             <span className="company">ModernCanna</span>
             <span className="year">2020 - 2022</span>
           </div>

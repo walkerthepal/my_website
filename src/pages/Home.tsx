@@ -10,6 +10,7 @@ const Home = () => {
           <h1>Walker Andrew</h1>
           <p>Software Engineer</p>
           <p><a href="https://www.linkedin.com/in/walker-andrew-6b5b24184/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          <p><a href="https://github.com/walkerthepal" target="_blank" rel="noopener noreferrer">GitHub</a></p>
         </div>
         <div className="hero-image">
           <img src={jupiter} alt="Artwork" />
