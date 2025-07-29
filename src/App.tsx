@@ -1,11 +1,11 @@
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import About from './pages/About';
 import Experience from './pages/Experience';
 import Education from './pages/Education';
-import Artwork from './pages/Artwork';
 import Projects from './pages/Projects';
-import About from './pages/About';
 import TechnicalSkills from './pages/TechnicalSkills';
+import Artwork from './pages/Artwork';
 import BackgroundTransition from './components/BackgroundTransition';
 import './App.css';
 
@@ -18,6 +18,9 @@ function App() {
         <section id="home">
           <Home />
         </section>
+        <section id="about">
+          <About />
+        </section>
         <section id="experience">
           <Experience />
         </section>
@@ -29,9 +32,6 @@ function App() {
         </section>
         <section id="technical-skills">
           <TechnicalSkills />
-        </section>
-        <section id="about">
-          <About />
         </section>
         <section id="artwork">
           <Artwork />

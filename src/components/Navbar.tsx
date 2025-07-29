@@ -28,6 +28,17 @@ const Navbar = () => {
           Home
         </Link>
         <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          spy={true}
+          activeClass="active"
+          className="nav-link"
+        >
+          About
+        </Link>
+        <Link
           to="experience"
           smooth={true}
           duration={500}
@@ -70,17 +81,6 @@ const Navbar = () => {
           className="nav-link"
         >
           Skills
-        </Link>
-        <Link
-          to="about"
-          smooth={true}
-          duration={500}
-          offset={-80}
-          spy={true}
-          activeClass="active"
-          className="nav-link"
-        >
-          About
         </Link>
         <Link
           to="artwork"

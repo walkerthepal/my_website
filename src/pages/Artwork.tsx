@@ -28,9 +28,6 @@ const Artwork = () => {
   return (
     <div className="artwork-page">
       <h1>Artwork</h1>
-      <p className="artwork-description">
-        These are images of nature I've taken over the years. Manipulated using the <a href="https://github.com/satyarth/pixelsort" target="_blank" rel="noopener noreferrer">pixelsort</a> python project and <a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer">GIMP</a> (GNU Image Manipulation Program).
-      </p>
       <div className="gallery">
         {artwork.map((piece, index) => (
           <div 

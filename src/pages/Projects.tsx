@@ -21,16 +21,16 @@ const Projects = () => {
       githubUrl: 'https://github.com/walkerthepal/uploader'
     },
     {
+      title: 'Website Portfolio',
+      year: '2025',
+      description: 'React website built with Vite and Tailwind CSS. Utilizing React Router for navigation and React Hooks for state management. Built with Cursor. Hosted via my github.',
+      githubUrl: 'https://github.com/walkerthepal/my_website'
+    },
+    {
       title: 'Pitch Detector',
       year: '2024',
       description: 'Guitar tuner written out of a frustration of good options in app stores. Backend in Golang for pitch detection signal processing with C bindings, and frontend in REACT.',
       githubUrl: 'https://github.com/walkerthepal/pitch-detect'
-    },
-    {
-      title: 'This Website',
-      year: '2025',
-      description: 'React website built with Vite and Tailwind CSS. Utilizing React Router for navigation and React Hooks for state management. Built with Cursor. Hosted via my github.',
-      githubUrl: 'https://github.com/walkerthepal/my_website'
     },
     {
       title: 'Artwork',

@@ -45,7 +45,7 @@ const BackgroundTransition = () => {
               setCurrentBackground(whiteFlower);
               break;
             case 'education':
-              setCurrentBackground(clump);
+              setCurrentBackground(bliss);
               break;
             case 'artwork':
               setCurrentBackground(passion);
@@ -54,7 +54,7 @@ const BackgroundTransition = () => {
               setCurrentBackground(purple);
               break;
             case 'about':
-              setCurrentBackground(bliss);
+              setCurrentBackground(clump);
               break;
           }
           setIsTransitioning(false);
