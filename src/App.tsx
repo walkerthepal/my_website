@@ -5,6 +5,7 @@ import Education from './pages/Education';
 import Artwork from './pages/Artwork';
 import Projects from './pages/Projects';
 import About from './pages/About';
+import TechnicalSkills from './pages/TechnicalSkills';
 import BackgroundTransition from './components/BackgroundTransition';
 import './App.css';
 
@@ -25,6 +26,9 @@ function App() {
         </section>
         <section id="projects">
           <Projects />
+        </section>
+        <section id="technical-skills">
+          <TechnicalSkills />
         </section>
         <section id="about">
           <About />

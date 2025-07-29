@@ -12,7 +12,7 @@ const Navbar = () => {
           offset={-80}
           className="navbar-brand-link"
         >
-          Walker Andrew
+          Walker Phillips
         </Link>
       </div>
       <div className="navbar-links">
@@ -59,6 +59,17 @@ const Navbar = () => {
           className="nav-link"
         >
           Projects
+        </Link>
+        <Link
+          to="technical-skills"
+          smooth={true}
+          duration={500}
+          offset={-80}
+          spy={true}
+          activeClass="active"
+          className="nav-link"
+        >
+          Skills
         </Link>
         <Link
           to="about"

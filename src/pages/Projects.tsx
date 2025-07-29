@@ -3,13 +3,13 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'This Website',
+      title: 'JobCompare App',
       year: '2025',
-      description: 'React website built with Vite and Tailwind CSS. Utilizing React Router for navigation and React Hooks for state management. Built with Cursor. Hosted via my github.',
-      githubUrl: 'https://github.com/walkerthepal/my_website'
+      description: 'Android App for comparing job offers, allowing users to add weights to attributes of individual job offers to better rank and compare to multiple offers. Built for GT class project.',
+      githubUrl: null
     },
     {
-      title: 'Wordwell',
+      title: 'Wordwell App',
       year: '2025',
       description: 'Android App including word searches, crosswords, and wordle clone. Written in Kotlin and using room (SQlite) DB for the word dictionary.',
       githubUrl: 'https://github.com/walkerthepal/wordwell'
@@ -27,15 +27,15 @@ const Projects = () => {
       githubUrl: 'https://github.com/walkerthepal/pitch-detect'
     },
     {
+      title: 'This Website',
+      year: '2025',
+      description: 'React website built with Vite and Tailwind CSS. Utilizing React Router for navigation and React Hooks for state management. Built with Cursor. Hosted via my github.',
+      githubUrl: 'https://github.com/walkerthepal/my_website'
+    },
+    {
       title: 'Artwork',
       year: '2022 - 2025',
       description: 'Artwork created using the pixel sort python project and GIMP (GNU Image Manipulation Program).',
-      githubUrl: null
-    },
-    {
-      title: 'River Management Simulator',
-      year: '2019',
-      description: 'Excel / VBA simulator at FSU, creating a Chattahoochee river basin management schema to satisfy multiuse needs of river basin.',
       githubUrl: null
     }
   ];
