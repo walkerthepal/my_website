@@ -1,9 +1,9 @@
 {
-  "name": "walker-Andrew-portfolio",
+  "name": "walker-phillips-portfolio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://github.com/walkerthepal/my_website",
+  "homepage": "https://walkerthepal.github.io/my_website/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
