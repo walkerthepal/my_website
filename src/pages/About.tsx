@@ -8,16 +8,16 @@ const About = () => {
       </div>
       <div className="about">
         <p>
-          I am a Software Engineer specializing in full-stack development with expertise in Android applications, database management, and automation solutions. I have built Android applications with SQLite integration and automated business processes using Python and .NET, reducing manual workload by 40%+ across multiple projects. I combine strong analytical background with hands-on development skills to deliver robust, efficient software solutions.
+          I am a software engineer with a proven track record of developing scalable backend systems and robust data automation solutions. My experience building and optimizing systems with technologies like .NET, Python, and a variety of SQL systems aligns with the challenges of modern backend development.        </p>
+        <p>
+          My journey into computer science began at Florida State University with core coursework in UNIX and C++. After graduation, I joined Moderncanna as a Software Engineer, where my primary achievement was designing and implementing a comprehensive, Python-based application to automate project management workflows. By integrating this system with AWS infrastructure, streamlined operations for laboratory teams, and reduced manual data processing. This initiative directly removed error-prone processes and measurably increased laboratory throughput.        </p>
+        <p>
+          Building on this experience, I advanced to Publix Supermarkets, where I focused on backend development within a .NET environment supporting a personnel system for hundreds of thousands of users. My work was heavily centered on data and automation; I architected MySQL database solutions and revamped the weekly reporting system using PowerShell. This automation provided refined labor statistics models for various business units and fulfilled critical ad-hoc reporting needs for the Legal and HR departments. In recognition of my ability to independently diagnose and resolve complex technical challenges, I was promoted to Mid-Level Software Engineer.        </p>
+        <p>
+          To further deepen my expertise, I am currently pursuing a master’s degree at Georgia Tech online with a focus on computer systems. My coursework in multithreaded distributed systems, networking, and security best practices has provided me with a rigorous theoretical framework for building resilient, enterprise-scale applications.
         </p>
         <p>
-          Currently, I am pursuing a Master's degree in Computer Science at Georgia Institute of Technology, maintaining a 3.7 GPA. My academic focus includes advanced algorithms, software security, software architecture, and distributed systems. This education builds upon my strong foundation from Florida State University, where I took a few computer science courses in programming probabiliy, C++ and Unix. I earned a B.S. in Environmental Sciences and Urban Planning with a 3.45 GPA.
-        </p>
-        <p>
-          My professional experience includes working as a Software Engineer at Publix Super Markets Inc (2022-2023), where I created automated and ad hoc data reports, maintained enterprise production SQL database environments handling millions of daily transactions, and optimized labor modeling and assignments in a .NET ecosystem. Prior to that, I worked at ModernCanna (2021-2022), developing Python applications for client deliverables using AWS buckets and automating laboratory procedural tasks, which increased efficiency and reduced error rates by 50%.
-        </p>
-        <p>
-          My recent projects include developing Android applications like JobCompare for job offer comparison and Wordwell for word games, as well as building web applications using modern technologies like Golang, HTMX, and React. I'm passionate about creating efficient, user-friendly software solutions that solve real-world problems.
+          While pursuing my master’s degree, I have been working as a data engineer at Array Corporation. There I have worked in a team creating a unified client portal while building medallion architecture in databricks using data lakehouses. My hands-on experience in database management, backend development, and process automation has prepared me to deliver immediate value. 
         </p>
       </div>
     </div>
