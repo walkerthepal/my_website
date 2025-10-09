@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://walkerthepal.github.io/my_website/",
+  "homepage": "https://github.com/walkerthepal/my_website",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
