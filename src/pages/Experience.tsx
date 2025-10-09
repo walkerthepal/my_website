@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="experience-item">
           <div className="experience-header">
             <h2>Data Engineer</h2>
-            <span className="company">Array Corporation, Atlanta, GA</span>
+            <span className="company">Array Corporation, Raleigh, NC</span>
             <span className="year">2025 - Current</span>
           </div>
           <ul>
