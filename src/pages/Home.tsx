@@ -11,7 +11,7 @@ const Home = () => {
           <p>Software Engineer</p>
           <hr />
           <p><a href="mailto:walker.a.phillips@gmail.com">walker.a.phillips@gmail.com</a></p>
-          <p><a href="https://www.linkedin.com/in/walker-andrew-6b5b24184/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/walker-phillips-6b5b24184/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
           <p><a href="https://github.com/walkerthepal" target="_blank" rel="noopener noreferrer">GitHub</a></p>
         </div>
         <div className="hero-image">
